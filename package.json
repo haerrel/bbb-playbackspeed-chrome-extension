@@ -1,0 +1,13 @@
+{
+  "name": "bbb-playbackspeed-chrome-extension",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-compress": "^1.6.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-rename": "^0.2.0",
+    "grunt-downloadfile": "^2.1.1",
+    "grunt-zip": "^0.18.2",
+    "jquery": "^3.5.0"
+  }
+}
