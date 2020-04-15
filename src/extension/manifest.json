@@ -1,0 +1,26 @@
+{
+    "name": "BBB Playbackspeed",
+    "description": "Adds the capability to change playback speed when watching a BBB recording",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "debugger",
+      "https://bbb.cs.hm.edu/"
+    ],
+    "web_accessible_resources": [
+        "icon.svg"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://bbb.cs.hm.edu/*"],
+        "run_at": "document_end",
+        "js": [
+            "content-script.js",
+            "jquery.min.js",
+            "popcorn-complete.min.js"
+        ],
+        "css": ["styles.css"]
+      }
+    ],
+    "manifest_version": 2
+  }
