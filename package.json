@@ -1,6 +1,6 @@
 {
   "name": "bbb-playbackspeed-chrome-extension",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "devDependencies": {
     "grunt": "^1.1.0",
     "grunt-contrib-compress": "^1.6.0",
