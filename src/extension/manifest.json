@@ -18,8 +18,7 @@
             "content-script.js",
             "jquery.min.js",
             "popcorn-complete.min.js"
-        ],
-        "css": ["styles.css"]
+        ]
       }
     ],
     "manifest_version": 2
