@@ -18,7 +18,9 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build project # This would actually build your project, using zip for an example artifact
-        run: grunt build
+        run: |
+          grunt init
+          grunt build
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
