@@ -2,6 +2,7 @@
     "name": "BBB Playbackspeed",
     "description": "Adds the capability to change playback speed when watching a BBB recording",
     "version": "1.0",
+    "author": "Andreas Hartung",
     "permissions": [
       "activeTab",
       "debugger",
