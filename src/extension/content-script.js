@@ -2,7 +2,7 @@ function inject () {
     console.log("Start injecting speedup button into DOM")
     const popcorn = Popcorn("#video")
     
-    const speedUpButton = '<button id="speedup-button" class="acorn-fullscreen-button" title="change playback speed" aria-controls="video" tabindex="3">Playback speed</button>'
+    const speedUpButton = '<button id="speedup-button" class="acorn-fullscreen-button" title="Change playback speed" aria-controls="video" tabindex="3">Playback speed</button>'
     $(".acorn-fullscreen-button").before(speedUpButton)
     
     function setButtonText(playbackRate) {
